@@ -42,7 +42,7 @@ pipeline {
 
     stage('Push') {
       steps {
-        sh 'docker push jimblessed/curriculum-front:lastest'
+        sh 'docker push jimblessed/curriculum-front'
       }
     }
 
